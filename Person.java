@@ -17,7 +17,7 @@ public class Person{
     }
     public static void main(String[] args) {
         Person p = new Person("P001","Joko");
-        System.out.println(p.getId()+" "+p.getName());
+        System.out.println("ID: "+p.getId()+"\nNama: "+p.getName());
     }
 
 }
